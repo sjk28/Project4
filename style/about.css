@@ -1,0 +1,103 @@
+/*DEVELOPER: Stephen Katz, IS117-005, Fall 2019 */
+body {
+  background-color: #ffe6b5;
+  color: #ffe6b5;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.about1 {
+  /* transform: translate(-30%, 30%); */
+  color: #23282d;
+  text-align: left;
+  font-size: 35rem;
+}
+
+.about2 {
+  /* transform: translate(0%, 30%); */
+  color: #23282d;
+  text-align: left;
+}
+
+.about3 {
+  /* transform: translate(-30%, 30%); */
+  color: #23282d;
+}
+iframe {
+  height: 30vh;
+}
+
+.about4 {
+  /* transform: translate(0%, 35%); */
+  color: #23282d;
+  text-align: center;
+}
+
+hr {
+  border: 1px solid #23282d;
+}
+
+h3 {
+  text-align: left;
+  font-size: 2rem;
+}
+
+h4 {
+  text-align: left;
+  font-size: 1.75rem;
+}
+
+.about-links a {
+  text-align: left;
+  font-size: 1.3rem;
+}
+
+.about2 p {
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.about-links a:link {
+  text-decoration: none;
+
+  color: #23282d;
+}
+
+.about-links a:visited {
+  text-decoration: none;
+  color: #23282d;
+}
+
+.about-links a:hover {
+  text-decoration: underline;
+  color: #23282d;
+}
+
+.about-links a:active {
+  text-decoration: underline;
+  color: #23282d;
+}
+
+.about-links li {
+  list-style-type: disk;
+}
+
+.about-links {
+  transform: translateX(-7%);
+}
+
+footer {
+  padding: 1em;
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+::-webkit-scrollbar {
+  width: 0px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}

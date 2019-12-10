@@ -1,0 +1,60 @@
+/*DEVELOPER: Stephen Katz, IS117-005, Fall 2019 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  left: 0;
+  background: #ffe6b5;
+  color: #292b2c;
+}
+
+h1,
+h2,
+h4 {
+  color: #292b2c;
+}
+
+.audio-controller {
+  margin-top: 25vh;
+  margin-bottom: 25vh;
+}
+
+.column-container {
+  width: 10rem;
+  height: 10rem;
+}
+
+.description li {
+  color: #292b2c;
+  font-size: 1.4em;
+}
+
+.description a {
+  text-decoration: none;
+  color: #292b2c;
+  font-size: 1.4em;
+}
+.description a:hover {
+  text-decoration: underline;
+  color: #292b2c;
+  font-size: 1.4em;
+}
+.description a:visited {
+  text-decoration: none;
+  color: #292b2c;
+  font-size: 1.4em;
+}
+footer {
+  top: 8vh;
+  z-index: 0;
+  padding: 1em;
+  position: relative;
+  left: 0;
+  right: 0;
+}

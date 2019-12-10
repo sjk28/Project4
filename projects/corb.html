@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- DEVELOPER: Stephen Katz, IS117-005, Fall 2019 -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lekton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style/font.css">
+    <link rel="stylesheet" href="../style/about.css">
+    <link rel="stylesheet" href="../style/all-projects.css">
+    <link rel="stylesheet" href="../style/nav.css">
+    <link rel="stylesheet" href="../style/corb.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="../index.html"><strong>Stephen Katz</strong> </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../about.html"><strong> About</strong></a>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../contact.html"><strong>Contact</strong> </a>
+
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        <strong>Projects</strong>
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="all-projects.html"> <strong>View All
+                                Projects</strong> </a>
+                        <a class="dropdown-item" href="solarcar.html"> <strong> Solar Car Project</strong></a>
+                        <a class="dropdown-item" href="corb.html"> <strong>Corboration</strong> </a>
+
+
+
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <canvas id="responsive-canvas"></canvas>
+    <div class="container">
+        <div class="row">
+            <div id="column" class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                <div class="audio-controller">
+                    <audio controls>
+                        <source src="../assets/airy.wav" type="audio/mp3">
+
+                        Your browser does not support the audio element.
+                    </audio>
+                    <h2>Airy - Corbonnabeat </h2>
+                </div>
+
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div class="description">
+                    <h1><strong><u>Corboration</u> </strong> </h1>
+                    <h2>This project was for my friend who is a producer, he wanted a site where he can showcase his
+                        music. </h2>
+                    <br>
+                    <h2>I took on this project to learn:</h2>
+                    <ul>
+                        <li>Open source JavaScript libraries</li>
+                        <li>NPM</li>
+                        <li>Google Firebase hosting and database storage</li>
+                        <li>3D animations using Three.js</li>
+                    </ul>
+                    <br>
+                    <h5><a target="_blank" href="https://corborations.com">Link to site!!!</a></h5>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <footer style="background-color: white">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-4 text-center text-md-left ">
+                    <div class="py-0">
+                        <br>
+                        <hr>
+
+                        <p class="footer-links font-weight-bold " style="color: black;">
+                            <a style="color: black;" href="../index.html">Home</a>
+                            |
+                            <a style="color: black;" href="../about.html">About</a>
+                            |
+                            <a style="color: black;" href="../contact.html">Contact</a>
+                            |
+                            <a style="color: black;" href="./all-projects.html">Projects</a>
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-md-4 text-white text-center text-md-left ">
+                    <br>
+                    <hr>
+                    <div class="py-0 ">
+                        <div>
+                            <p style="color: black;"><i class="fa fa-phone  mx-2 "></i> +1 732-425-9735</p>
+                        </div>
+                        <div>
+                            <p><i class="fa fa-envelope  mx-2"></i><a
+                                    href="mailto:stephenjk41@gmail.com">stephenjk41@gmail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center text-md-left ">
+                    <div class="py-0">
+                        <br>
+                        <hr>
+
+                        <p class="footer-links font-weight-bold " style="color: black;">
+                            <p style="color: black;">© Stephen Katz 2019</p>
+
+                            <p style="color: black;">Terms of Service</p>
+
+                            <p style="color: black;">Privacy Policy</p>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://threejsfundamentals.org/threejs/resources/threejs/r105/three.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

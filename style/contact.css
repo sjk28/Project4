@@ -1,0 +1,52 @@
+/*DEVELOPER: Stephen Katz, IS117-005, Fall 2019 */
+body {
+  background-color: #ffe6b5;
+  color: #292b2c;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+.user-email {
+  color: #292b2c;
+  width: 100%;
+  height: 70vh;
+  transform: translateY(40%);
+}
+
+.user-email h1 {
+  font-size: 1.4rem;
+  /* width: 100%; */
+}
+
+.info {
+  transform: translateY(40%);
+}
+
+.message-area {
+  margin-top: 10px;
+}
+
+.submit-button {
+  margin-top: 10px;
+}
+
+hr {
+  border: 1px solid #23282d;
+}
+
+footer {
+  padding: 3em;
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+::-webkit-scrollbar {
+  width: 0px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
